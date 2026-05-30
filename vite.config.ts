@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg', '*.png'],
+      includeAssets: ['favicon.ico', 'apple-touch-icon.png', '*.png'],
       manifest: {
         name: 'A Arte Culinária na Bahia',
         short_name: 'Culinária Baiana',
